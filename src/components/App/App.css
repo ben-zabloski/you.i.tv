@@ -1,0 +1,62 @@
+.App {
+  background-color: #333333;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-width: 788px;
+  overflow: hidden;
+}
+
+.AppHeaderSection {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1;
+}
+.AppHeaderSectionEnd {
+  align-self: flex-end;
+  display: flex;
+  opacity: 0.5;
+}
+
+.AppSearchText {
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.AppSearchText a {
+  color: #ffffff;
+}
+
+.AppContent {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow: hidden;
+}
+
+.AppVideoContainer {
+  flex: 1 1;
+  padding: 0 32px;
+}
+
+.AppVideoTitle {
+  font-size: 18px;
+}
+
+.AppVideoDescription {
+  opacity: 0.5;
+}
+
+.AppVideoChannel {
+  opacity: 0.33;
+}
+
+.AppErrorContainer {
+  flex: 1 1;
+  padding: 0 32px;
+}
+
+.AppErrorContainer a {
+  color: #ffffff;
+}
