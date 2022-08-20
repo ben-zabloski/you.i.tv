@@ -34,7 +34,7 @@ export function Video({ id }: VideoProps) {
     } else {
       loadPlayer();
     }
-  }, [id]);
+  }, []);
 
   const play = useCallback(() => {
     player.current?.playVideo();
